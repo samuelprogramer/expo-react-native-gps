@@ -1,2 +1,2 @@
 # expo-react-native-gps
-localizacao gps com expo react native
+localização gps com expo react native
