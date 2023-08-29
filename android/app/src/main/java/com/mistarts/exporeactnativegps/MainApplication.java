@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.res.Configuration;
 import androidx.annotation.NonNull;
 
+import com.exporeactnativegps.BuildConfig;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;

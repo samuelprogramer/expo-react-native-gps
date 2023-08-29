@@ -72,5 +72,7 @@
     <string>Light</string>
     <key>UIViewControllerBasedStatusBarAppearance</key>
     <false/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <key>NSLocationAlwaysUsageDescription</key>
   </dict>
 </plist>
