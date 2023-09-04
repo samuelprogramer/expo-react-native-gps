@@ -3,8 +3,8 @@ package com.mistarts.exporeactnativegps;
 import android.os.Build;
 import android.os.Bundle;
 
-import com.exporeactnativegps.BuildConfig;
-import com.exporeactnativegps.R;
+import com.mistarts.exporeactnativegps.BuildConfig;
+import com.mistarts.exporeactnativegps.R;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
