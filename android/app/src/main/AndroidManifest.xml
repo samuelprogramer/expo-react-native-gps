@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mistarts.exporeactnativegps">
   <uses-permission android:name="android.permission.ACESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
   <uses-permission android:name="android.permission.INTERNET"/>
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
   <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
@@ -29,6 +30,9 @@
         <data android:scheme="com.mistarts.exporeactnativegps"/>
       </intent-filter>
     </activity>
+    <meta-data
+		  android:name="com.google.android.geo.API_KEY"
+		  android:value="SUA_KEY_API_AQUI"/>
     <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" android:exported="false"/>
   </application>
 </manifest>
